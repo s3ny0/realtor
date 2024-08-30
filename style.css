@@ -1,0 +1,822 @@
+@media (max-width: 600px) {
+    /* CSS rules for small devices */
+    nav{
+        justify-content: center;
+    }
+    .nav-buttons, .nav-button{
+        display: none;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .nav-alt{
+        height: 50px;
+        width: 95%;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(24, 24, 24);
+        border-radius: 15px;
+    }
+    .nav-button-alt{
+        height: 40px;
+        width: 80px;
+    }
+    .hero{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .hero-heading{
+        font-size: 3rem;
+    }
+    .hero-img{
+        height: 300px;
+    }
+    .page-divider{
+        margin: 25px auto;
+    }
+    .apartments-heading{
+        width: 95%;
+    }
+    .apartments-heading h1{
+        width: 300px;
+        padding: 0px 50px;
+    }
+    .apartments-heading p{
+        width: 300px;
+        padding: 0px 50px;
+    }
+    .apartments-card-1, .apartments-card-2, .apartments-card-3, .apartments-card-4{
+        width: 95%;
+        height: 400px;
+        margin: 10px auto;
+    }
+    .apartments-card-1-info, .apartments-card-2-info, .apartments-card-3-info, .apartments-card-4-info{
+        top: 290px;
+    }
+    .apartments-card-1-info:hover{
+        height: 260px;
+        top: 105px;
+    }
+    .apartments-card-2-info:hover{
+        height: 260px;
+        top: 105px;
+    }
+    .apartments-card-3-info:hover{
+        height: 260px;
+        top: 105px;
+    }
+    .apartments-card-4-info:hover{
+        height: 260px;
+        top: 105px;
+    }
+    .section-right{
+        width: 100%;
+    }
+    .section-right-bottom{
+        width: 100%;
+    }
+    .property-card{
+        height: 400px;
+        width: 350px;
+    }
+    .property-img{
+        height: 250px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .property-details{
+        height: 120px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* CSS rules for medium devices */
+    nav{
+        justify-content: center;
+    }
+    .nav-buttons, .nav-button{
+        display: none;
+    }
+    .logo{
+        margin: 0px 50px;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .nav-alt{
+        height: 50px;
+        width: 98%;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(24, 24, 24);
+        border-radius: 15px;
+    }
+    .nav-button-alt{
+        height: 40px;
+        width: 100px;
+    }
+    .hero{
+        width: 95%;
+        margin: 30px auto;
+    }
+    .hero-heading{
+        font-size: 4rem;
+    }
+    .hero-img{
+        height: 500px;
+    }
+    .page-divider{
+        margin: 50px auto;
+    }
+    .apartments-heading{
+        width: 95%;
+    }
+    .apartments-heading h1{
+        width: 200px;
+        padding: 0px 50px;
+    }
+    .apartments-heading p{
+        width: 250px;
+        padding: 0px 50px;
+    }
+    .apartments-cards{
+        width: 95%;
+    }
+    .apartments-card-1{
+        width: 49%;
+        height: 500px;
+    }
+    .apartments-card-1-info{
+        top: 380px;
+    }
+    .apartments-card-1-info:hover{
+        height: 260px;
+        top: 200px;
+    }
+    .section-right{
+        width: 49%;
+    }
+    .apartments-card-2{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 5px;
+    }
+    .apartments-card-2-info{
+        top: 150px;
+    }
+    .apartments-card-2-info:hover{
+        height: 200px;
+        top: 30px;
+    }
+    .section-right-bottom{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .apartments-card-3, .apartments-card-4{
+        height: 240px;
+        width: 49%;
+    }
+    .apartments-card-3-info, .apartments-card-4-info{
+        top: 140px;
+    }
+    .apartments-card-3-info:hover{
+        height: 200px;
+        top: 20px;
+    }
+    .apartments-card-4-info:hover{
+        height: 200px;
+        top: 20px;
+    }
+    .property-card{
+        height: 400px;
+        width: 350px;
+    }
+    .property-img{
+        height: 250px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .property-details{
+        height: 120px;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* CSS rules for large devices */
+    nav{
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .nav-buttons{
+        width: 700px;
+    }
+    .nav-button{
+        width: 150px;
+        font-size: 1.1rem;
+    }
+    .nav-alt, .nav-button-alt{
+        display: none;
+    }
+    .hero{
+        width: 98%;
+        margin: 0px auto;
+    }
+    .hero-heading{
+        font-size: 5rem;
+    }
+    .hero p{
+        width: 500px;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+    .hero-img{
+        height: 600px;
+    }
+    .page-divider{
+        margin: 100px auto;
+    }
+    .apartments-heading{
+        width: 98%;
+    }
+    .apartments-heading h1{
+        width: 300px;
+        padding: 0px 50px;
+        font-size: 3rem;
+    }
+    
+    .apartments-heading p{
+        width: 600px;
+        padding: 0px 50px;
+    }
+    .apartments-cards{
+        width: 98%;
+    }
+    .apartments-card-1{
+        width: 49%;
+        height: 650px;
+    }
+    .apartments-card-1-info{
+        top: 530px;
+    }
+    .apartments-card-1-info:hover{
+        height: 260px;
+        top: 350px;
+    }
+    .section-right{
+        width: 50%;
+    }
+    .apartments-card-2{
+        height: 320px;
+        width: 100%;
+    }
+    .section-right-bottom{
+        width: 100%;
+    }
+    .apartments-card-3, .apartments-card-4{
+        height: 320px;
+        width: 49%;
+        margin: 10px auto;
+    }
+    .apartments-card-2-info{
+        top: 20px;
+    }
+    .apartments-card-2-info:hover{
+        height: 270px;
+        top: 20px;
+    }
+    .apartments-card-3-info, .apartments-card-4-info{
+        top: 210px;
+    }
+    .apartments-card-3-info:hover{
+        height: 270px;
+        top: 20px;
+    }
+    .apartments-card-4-info:hover{
+        height: 270px;
+        top: 20px;
+    }
+    .property-card{
+        height: 440px;
+        width: 300px;
+    }
+    .property-img{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 5px;
+    }
+    .property-details{
+        height: 120px;
+    }
+}
+
+
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: whitesmoke; 
+    border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(24, 24, 24); 
+    border-radius: 15px;
+    border: 3px solid whitesmoke;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(40, 40, 40); 
+}
+
+/* Firefox
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(10, 10, 10) whitesmoke;
+}*/
+
+
+
+nav{
+    height: 80px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    color: rgb(40, 40, 40);
+    font-family: 'Alatsi';
+}
+
+.nav-buttons{
+    margin: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-button{
+    height: 40px;
+    margin: 0px 5px;
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    color: black;
+}
+
+.nav-button:hover{
+    transform: scaleX(1.2);
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.nav-button-alt{
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+.nav-button-alt:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(24, 24, 24);
+}
+
+.hero{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(194, 194, 194);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-top{
+    width: 90%;
+}
+
+.hero-heading{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero p{
+    font-family: 'Archivo Black';
+    color: rgb(43, 93, 151);
+}
+
+.hero-img{
+    width: 95%;
+    margin: 50px auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.page-divider{
+    height: 2px;
+    width: 95%;
+    background-color: black;
+    border: none;
+}
+
+.apartments{
+    width: 100%;
+    margin: 30px auto;
+}
+
+.apartments-heading{
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apartments-heading h1{
+    font-family: 'Archivo Black';
+    color: rgb(43, 93, 151);
+}
+
+.apartments-heading p{
+    font-family: 'Alatsi';
+}
+
+.apartments-cards{
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apartments-card-1{
+    background-image: url('images/alejandra-cifre-gonzalez-ylyn5r4vxcA-unsplash.jpg');
+    background-attachment: local;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+/*.apartments-card-1:hover .apartments-card-1-info{
+    position: relative;
+    top: 400px;
+    transition: 1s;
+    cursor: pointer;
+}*/
+.apartments-card-1-info{
+    font-family: 'Alatsi';
+    height: 80px;
+    width: 95%;
+    margin: 0px auto;
+    padding: 10px 0px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+    color: white;
+}
+.apartments-card-1-info .link{
+    height: 50px;
+    width: 50px;
+    margin-left: 180px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(43, 93, 151);
+    color: rgb(214, 214, 214);
+}
+.apartments-card-1-info hr{
+    height: 1px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+.apartments-card-1-info-row-1, .apartments-card-1-info-row-2{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apartments-card-1-info-row-1{
+    height: 50px;
+    padding: 10px 0px;
+}
+.apartments-card-1-info:hover{
+    position: relative;
+    background-color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.apartments-card-2{
+    background-image: url('images/john-fornander-Id7u0EkTjBE-unsplash.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+.apartments-card-2-info{
+    font-family: 'Alatsi';
+    height: 80px;
+    width: 95%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(1px);
+    color: white;
+}
+.apartments-card-2-info .link{
+    height: 50px;
+    width: 50px;
+    margin-left: 180px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(43, 93, 151);
+    color: rgb(214, 214, 214);
+}
+.apartments-card-2-info hr{
+    height: 1px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+.apartments-card-2-info-row-1, .apartments-card-2-info-row-2{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apartments-card-2-info-row-1{
+    height: 50px;
+    padding: 10px 0px;
+}
+.apartments-card-2-info:hover{
+    position: relative;
+    background-color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.apartments-card-3{
+    background-image: url('images/pexels-vince.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+.apartments-card-3-info{
+    font-family: 'Alatsi';
+    height: 80px;
+    width: 95%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(1px);
+    color: white;
+}
+.apartments-card-3-info .link{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(43, 93, 151);
+    color: rgb(214, 214, 214);
+}
+.apartments-card-3-info hr{
+    height: 1px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+.apartments-card-3-info-row-1, .apartments-card-3-info-row-2{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apartments-card-3-info-row-1{
+    height: 50px;
+    padding: 10px 0px;
+}
+.apartments-card-3-info:hover{
+    position: relative;
+    background-color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.apartments-card-4{
+    background-image: url('images/webaliser-_TPTXZd9mOo-unsplash.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+.apartments-card-4-info{
+    font-family: 'Alatsi';
+    height: 80px;
+    width: 95%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(1px);
+    color: white;
+}
+.apartments-card-4-info .link{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(43, 93, 151);
+    color: rgb(214, 214, 214);
+}
+.apartments-card-4-info hr{
+    height: 1px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+.apartments-card-4-info-row-1, .apartments-card-4-info-row-2{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apartments-card-4-info-row-1{
+    height: 50px;
+    padding: 10px 0px;
+}
+.apartments-card-4-info:hover{
+    position: relative;
+    background-color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+.price-and-loaction{
+    width: 250px;
+}
+.specs{
+    width: 250px;
+}
+.links{
+    width: 250px;
+    height: 80px;
+}
+.specs-details{
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.specs p{
+    width: 80px;
+}
+
+.section-right-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.new-properties{
+    width: 100%;
+    margin: 50px auto;
+    font-family: 'Archivo Black';
+}
+
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(43, 93, 151);
+}
+
+.properties-cluster{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.property-card{
+    margin: 15px auto;
+}
+
+.property-img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.property-details{
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+}
+
+.location-and-price{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.location{
+    width: 50%;
+}
+
+.price{
+    width: 50%;
+    text-align: right;
+    color: rgb(43, 93, 151);
+}
+
+.map{
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Archivo Black';
+}
+
+iframe{
+    height: 500px;
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+footer{
+    width: 95%;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(40, 40, 40);
+}
+
+.footer-div{
+    width: 300px;
+    padding: 20px;
+    color: rgb(214, 214, 214);
+    font-family: 'Archivo Black';
+}
+
+.footer-div .title{
+    color: rgb(214, 214, 214);
+}
